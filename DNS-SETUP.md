@@ -12,7 +12,7 @@ across the internet, but it is usually much faster (often under an hour).
 - You need the GitHub repository that holds this site, and it needs GitHub Pages
   turned on (see the last section).
 - The GitHub username that owns the repo is likely **jjasonham** — please confirm
-  this before you use it below. Wherever you see `<YOUR-GITHUB-USERNAME>`, swap in
+  this before you use it below. Wherever you see `jjasonham`, swap in
   the confirmed username.
 
 ---
@@ -83,7 +83,7 @@ Type = **CNAME Record**, Host = `www`, TTL = **Automatic**.
 
 | Type         | Host | Value                             |
 |--------------|------|-----------------------------------|
-| CNAME Record | www  | `<YOUR-GITHUB-USERNAME>.github.io` |
+| CNAME Record | www  | `jjasonham.github.io` |
 
 Example, if the confirmed username is `jjasonham`, the Value would be
 `jjasonham.github.io`. Do **not** put `https://` or a slash in the value — just the
